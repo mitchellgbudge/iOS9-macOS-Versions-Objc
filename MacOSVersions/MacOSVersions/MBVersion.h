@@ -6,12 +6,23 @@
 //  Copyright © 2019 Mitchell Budge. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+// Interface = Class (public)
 
-NS_ASSUME_NONNULL_BEGIN
+#import <Foundation/Foundation.h>
 
 @interface MBVersion : NSObject
 
+// let name: String
+@property NSString *name;
+// let releaseDate: String
+@property NSString *releaseDate;
+
+// init(name: String, releaseDate: String)
+- (instancetype)initWithName:(NSString *)name releaseDate:(NSString *)releaseDate;
+
 @end
 
-NS_ASSUME_NONNULL_END
+// class methods have a +, instance methods have a - (init would be an instance method); difference between class and static in Swift.
+// instancetype means it's returning an MBVersion object
+
+
