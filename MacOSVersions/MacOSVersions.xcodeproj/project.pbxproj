@@ -17,6 +17,8 @@
 		6EC90E27237092F700107BA6 /* MacOSVersionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E26237092F700107BA6 /* MacOSVersionsTests.m */; };
 		6EC90E32237092F700107BA6 /* MacOSVersionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E31237092F700107BA6 /* MacOSVersionsUITests.m */; };
 		6EC90E41237099F900107BA6 /* MBVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E40237099F900107BA6 /* MBVersion.m */; };
+		6EC90E442370A1D200107BA6 /* MBVersionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E432370A1D200107BA6 /* MBVersionController.m */; };
+		6EC90E472370A46200107BA6 /* MBVersionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E462370A46200107BA6 /* MBVersionsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		6EC90E33237092F700107BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC90E3F237099F900107BA6 /* MBVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBVersion.h; sourceTree = "<group>"; };
 		6EC90E40237099F900107BA6 /* MBVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBVersion.m; sourceTree = "<group>"; };
+		6EC90E422370A1D200107BA6 /* MBVersionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBVersionController.h; sourceTree = "<group>"; };
+		6EC90E432370A1D200107BA6 /* MBVersionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBVersionController.m; sourceTree = "<group>"; };
+		6EC90E452370A46200107BA6 /* MBVersionsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBVersionsTableViewController.h; sourceTree = "<group>"; };
+		6EC90E462370A46200107BA6 /* MBVersionsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBVersionsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				6EC90E11237092F500107BA6 /* ViewController.m */,
 				6EC90E3F237099F900107BA6 /* MBVersion.h */,
 				6EC90E40237099F900107BA6 /* MBVersion.m */,
+				6EC90E422370A1D200107BA6 /* MBVersionController.h */,
+				6EC90E432370A1D200107BA6 /* MBVersionController.m */,
+				6EC90E452370A46200107BA6 /* MBVersionsTableViewController.h */,
+				6EC90E462370A46200107BA6 /* MBVersionsTableViewController.m */,
 				6EC90E13237092F500107BA6 /* Main.storyboard */,
 				6EC90E16237092F700107BA6 /* Assets.xcassets */,
 				6EC90E18237092F700107BA6 /* LaunchScreen.storyboard */,
@@ -275,6 +285,8 @@
 				6EC90E12237092F500107BA6 /* ViewController.m in Sources */,
 				6EC90E0C237092F500107BA6 /* AppDelegate.m in Sources */,
 				6EC90E1D237092F700107BA6 /* main.m in Sources */,
+				6EC90E442370A1D200107BA6 /* MBVersionController.m in Sources */,
+				6EC90E472370A46200107BA6 /* MBVersionsTableViewController.m in Sources */,
 				6EC90E41237099F900107BA6 /* MBVersion.m in Sources */,
 				6EC90E0F237092F500107BA6 /* SceneDelegate.m in Sources */,
 			);

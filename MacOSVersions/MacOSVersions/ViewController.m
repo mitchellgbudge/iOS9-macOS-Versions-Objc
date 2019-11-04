@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MBVersion.h"
 
 @interface ViewController ()
 
@@ -39,7 +40,13 @@
     // print("pi: \(pi), distance: \(distance), count: \(count)")
     NSLog(@"pi: %f, distance: %f, count: %i", pi, distance, count);
     
+    // MARK: - OBJECT INITIALIZATION
+    MBVersion *version = [[MBVersion alloc] initWithName:@"Catalina"
+                                             releaseDate:@"October 7th, 2019"];
+    
 }
 
 
 @end
+
+// Alloc buys the space in memory, and init makes the object in the open space
