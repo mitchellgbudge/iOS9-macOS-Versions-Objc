@@ -30,7 +30,7 @@
                      [[MBVersion alloc] initWithName:@"Sierra" releaseDate:@"September 20, 2016"],
                      [[MBVersion alloc] initWithName:@"High Sierra" releaseDate:@"September 25, 2017"],
                      [[MBVersion alloc] initWithName:@"Mojave" releaseDate:@"September 24, 2018"],
-                     [[MBVersion alloc] initWithName:@"Catalina" releaseDate:@"October, 2019?"],
+                     [[MBVersion alloc] initWithName:@"Catalina" releaseDate:@"October 7th, 2019"],
                      nil];
     }
     return self;
